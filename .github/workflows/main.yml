@@ -32,4 +32,4 @@ jobs:
         port: ${{ secrets.PORT || 22 }}
         key: ${{ secrets.KEY }}
         source: "build/*"
-        target: /home/ubuntu/react
+        target: /home/ubuntu/react-new
